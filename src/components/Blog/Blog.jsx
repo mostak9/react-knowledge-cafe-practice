@@ -12,7 +12,7 @@ const Blog = ({ blog }) => {
     hashtags,
   } = blog;
   return (
-    <div className="mb-10 space-y-6 border-b-2 pb-5 shadow-xl px-4">
+    <div className="mb-10 space-y-6 border-b-2 pb-5 shadow-md shadow-slate-200 px-4">
 
     {/* cover picture */}
       <div>
