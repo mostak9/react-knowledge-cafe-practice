@@ -2,7 +2,7 @@ import { useState } from "react";
 import Blog from "../Blog/Blog";
 import PropTypes from "prop-types";
 
-const Blogs = ({handleAddToBookmark}) => {
+const Blogs = ({handleAddToBookmark, handleAddReadingTime}) => {
     const [blogs, setBlogs] = useState([]);
 
     useState(() => {
@@ -13,7 +13,7 @@ const Blogs = ({handleAddToBookmark}) => {
     return (
         <div className="w-2/3 px-3">
             {
-                blogs.map((blog, idx) => <Blog key={idx} blog={blog} handleAddToBookmark={handleAddToBookmark}></Blog>)
+                blogs.map((blog, idx) => <Blog key={idx} blog={blog} handleAddToBookmark={handleAddToBookmark} handleAddReadingTime={handleAddReadingTime}></Blog>)
             }
         </div>
     );
@@ -21,6 +21,7 @@ const Blogs = ({handleAddToBookmark}) => {
 
 Blogs.propTypes = {
     handleAddToBookmark: PropTypes.func.isRequired,
+    handleAddReadingTime: PropTypes.func.isRequired,
 }
 
 export default Blogs;
