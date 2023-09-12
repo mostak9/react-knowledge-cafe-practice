@@ -1,0 +1,53 @@
+[
+    {
+      "id": 12345,
+      "cover": "https://i.ibb.co/njTmYsN/1.jpg",
+      "title": "The Secret Garden",
+      "author": "Emily Smith",
+      "author_img": "https://i.ibb.co/nz545MV/boy1.png",
+      "posted_date": "2023-09-05",
+      "reading_time": 25,
+      "hashtags": ["#nature", "#gardening", "#magic"]
+    },
+    {
+      "id": 67890,
+      "cover": "https://i.ibb.co/Zg4Zxtq/2.png",
+      "title": "Galactic Adventures",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/WfBbgHZ/boy2.jpg",
+      "posted_date": "2023-08-28",
+      "reading_time": 40,
+      "hashtags": ["#space", "#exploration", "#aliens"]
+    },
+    {
+      "id": 24680,
+      "cover": "https://i.ibb.co/sP3c3mq/3.png",
+      "title": "The Enchanted Forest",
+      "author": "Sarah Johnson",
+      "author_img": "https://i.ibb.co/0nfKhp2/girl1.jpg",
+      "posted_date": "2023-09-02",
+      "reading_time": 30,
+      "hashtags": ["#fantasy", "#adventure", "#mystery"]
+    },
+    {
+      "id": 13579,
+      "cover": "https://i.ibb.co/njTmYsN/4.jpg",
+      "title": "The Time Traveler's Dilemma",
+      "author": "Michael Brown",
+      "author_img": "https://i.ibb.co/QbsPCpS/girl2.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time": 35,
+      "hashtags": ["#timetravel", "#sciencefiction", "#paradox"]
+    },
+    {
+      "id": 54321,
+      "cover": "https://i.ibb.co/sH61yWt/252-Fashion-sale-facebook-cover-page-template.jpg",
+      "title": "Cooking with Imagination",
+      "author": "Lisa Anderson",
+      "author_img": "https://i.ibb.co/mcVxQt6/profile.png",
+      "posted_date": "2023-08-31",
+      "reading_time": 20,
+      "hashtags": ["#cooking", "#recipes", "#creativity"]
+    }
+  ]
+  
